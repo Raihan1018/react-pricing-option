@@ -1,10 +1,12 @@
 import React from "react";
+import DaisyNav from "./components/DaisyNav/DaisyNav";
+import NavBar from "./components/DaisyNav/NavBar/NavBar";
 
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
-      <button className="btn btn-primary">Click Me</button>
+      {/* <DaisyNav /> */}
+      <NavBar />
     </div>
   );
 };
